@@ -1,0 +1,92 @@
+*
+    box-sizing: border-box
+
+body
+    background: #f2f2f2
+    font-family: 'Montserrat'
+    font-size: 14px
+
+.container
+    // background: #c9c9c9
+    margin: 20px auto
+    width: 98%
+    max-width: 800px
+    padding: 5px
+    border: 2px solid rgba(#79b606, 0.5)
+    border-radius: 10px
+    display: grid
+    grid-template-columns: 1fr 3fr 1fr
+    .container-logo
+        background: #fff
+        width: 100%
+        .logo
+            margin: 2px auto
+            padding: 10px
+            display: flex
+            flex-wrap: nowrap
+            flex-direction: column           
+    .container-data
+        background: #fff
+        padding: 20px 10px 1px 10px
+        .data
+            margin-top: 20px
+            .name
+                color: #123E96
+                font-size: 24px
+                font-weight: 400
+            .profession
+                color: #79B606
+                font-size: 18px
+                margin-top: -20px
+            hr
+                margin-top: -10px
+                margin-bottom: 20px
+            ul
+                list-style: none
+                margin: 0
+                padding: 0
+                margin-bottom: 10px
+                color: #494949
+                font-weight: 300
+                font-size: 16px
+                
+
+
+        .socialmedia
+            // background: #1e3b38
+            padding: 5px 0
+            .container-socialmedia
+                display: flex
+                justify-content: center
+                a
+                    color: #949494
+                    text-align: center
+                    width: 50px
+                    display: block
+                    padding: 15px 0
+                    border-radius: 3px
+                    font-size: 18px
+                    margin: 0 5px
+                .twitter:hover
+                    background: #1da1f2
+                    color: #fff
+                .facebook:hover 
+                    background: #1877f2 
+                    color: #fff
+                .linkedin:hover
+                    background: #0077b5
+                    color: #fff
+                .youtube:hover
+                    background: #ff0000
+                    color: #fff
+                .github:hover
+                    background: #bd2c00
+                    color: #fff
+    .container-banner
+        text-align: center
+        background: #fff
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        .banner
+            
